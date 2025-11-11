@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling.css">
+    <title>Simon Says Game</title>
+</head>
+<body>
+    <div class="game-container">
+        <h1>Simon Says</h1>
+        <input type="text" id="playerName" placeholder="Enter your name" />
+        <button id="start">Start Game</button>
+        <p id="status"></p>
+        <p id="score">Score: 0</p>
+        <p id="highScore">High Score: -</p> <!-- Element for displaying the high score -->
+        <div class="buttons">
+            <div class="button" id="green"></div>
+            <div class="button" id="red"></div>
+            <div class="button" id="yellow"></div>
+            <div class="button" id="blue"></div>
+        </div>
+    </div>
+    <script src="logic.js"></script>
+</body>
+</html>
